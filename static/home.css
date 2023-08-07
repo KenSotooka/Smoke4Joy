@@ -1,11 +1,23 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@keyframes change-color {
+    25% { color: #00A4BD; }
+    50% { color: #FF7A59; }
+    75% { color: #00BDA5; }
+  }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 .hi{
     width: 30%;
     height:20%;
-    border:1px solid black;
+    border:1px solid rgb(5, 5, 5);
     padding: 1.5%;
-
+    animation-name: fadeIn;
+    animation-duration: 5s;
+   
+    
 } 
 #hi1{
     width: 15%;
@@ -44,6 +56,7 @@
 h3{
     margin:auto;
     font-size: x-large;
+    animation: change-color 5s;
 }
 body {
     margin-left: 5%;

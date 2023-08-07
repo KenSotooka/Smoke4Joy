@@ -13,7 +13,7 @@ window.onmousemove = e => {
     const mouseMove = parseFloat(track.dataset.mouseDownAt) - e.clientX;
         maxmove = window.innerWidth/2;
 
-    const percentage = (mouseMove/maxmove) *-100;
+    const percentage = (mouseMove/maxmove) *-75;
     nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage,
     nextpercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
     track.dataset.percentage = nextpercentage;
@@ -43,7 +43,7 @@ function big1(){
     
     //counter++; 
     document.getElementById('image1big').hidden = false;}
-function bighide(){document.getElementById('image1big').hidden = true;}
+function bighide(){document.getElementById('image1big').classList.add("animation");document.getElementById('image1big').hidden = true;}
 
 function big2(){document.getElementById('image2big').hidden = false;}
 function bighide1(){document.getElementById('image2big').hidden = true;}
