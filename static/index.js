@@ -41,6 +41,13 @@ document.getElementById('image9big').hidden = true;
 
 document.getElementById('info1').hidden = true;
 document.getElementById('info2').hidden = true;
+document.getElementById('info3').hidden = true;
+document.getElementById('info4').hidden = true;
+document.getElementById('info5').hidden = true;
+document.getElementById('info6').hidden = true;
+document.getElementById('info7').hidden = true;
+document.getElementById('info8').hidden = true;
+document.getElementById('info9').hidden = true;
 //counter = 0;
 function big1(){
     
@@ -51,23 +58,23 @@ function bighide(){document.getElementById('image1big').classList.add("animation
 function big2(){document.getElementById('image2big').hidden = false;document.getElementById('info2').hidden = false;}
 function bighide1(){document.getElementById('image2big').hidden = true;document.getElementById('info2').hidden = true;}
 
-function big3(){document.getElementById('image3big').hidden = false;}
-function bighide2(){document.getElementById('image3big').hidden = true;}
+function big3(){document.getElementById('image3big').hidden = false;document.getElementById('info3').hidden = false;}
+function bighide2(){document.getElementById('image3big').hidden = true;document.getElementById('info3').hidden = true;}
 
-function big4(){document.getElementById('image4big').hidden = false;}
-function bighide3(){document.getElementById('image4big').hidden = true;}
+function big4(){document.getElementById('image4big').hidden = false;document.getElementById('info4').hidden = false;}
+function bighide3(){document.getElementById('image4big').hidden = true;document.getElementById('info4').hidden = true;}
 
-function big5(){document.getElementById('image5big').hidden = false;}
-function bighide4(){document.getElementById('image5big').hidden = true;}
+function big5(){document.getElementById('image5big').hidden = false;document.getElementById('info5').hidden = false;}
+function bighide4(){document.getElementById('image5big').hidden = true;document.getElementById('info5').hidden = true;}
 
-function big6(){document.getElementById('image6big').hidden = false;}
-function bighide5(){document.getElementById('image6big').hidden = true;}
+function big6(){document.getElementById('image6big').hidden = false;document.getElementById('info6').hidden = false;}
+function bighide5(){document.getElementById('image6big').hidden = true;document.getElementById('info6').hidden = true;}
 
-function big7(){document.getElementById('image7big').hidden = false;}
-function bighide6(){document.getElementById('image7big').hidden = true;}
+function big7(){document.getElementById('image7big').hidden = false;document.getElementById('info7').hidden = false;}
+function bighide6(){document.getElementById('image7big').hidden = true;document.getElementById('info7').hidden = true;}
 
-function big8(){document.getElementById('image8big').hidden = false;}
-function bighide7(){document.getElementById('image8big').hidden = true;}
+function big8(){document.getElementById('image8big').hidden = false;document.getElementById('info8').hidden = false;}
+function bighide7(){document.getElementById('image8big').hidden = true;document.getElementById('info8').hidden = true;}
 
-function big9(){document.getElementById('image9big').hidden = false;}
-function bighide8(){document.getElementById('image9big').hidden = true;}
+function big9(){document.getElementById('image9big').hidden = false;document.getElementById('info9').hidden = false;}
+function bighide8(){document.getElementById('image9big').hidden = true;document.getElementById('info9').hidden = true;}
