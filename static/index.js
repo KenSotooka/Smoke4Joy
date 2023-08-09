@@ -38,15 +38,18 @@ document.getElementById('image6big').hidden = true;
 document.getElementById('image7big').hidden = true;
 document.getElementById('image8big').hidden = true;
 document.getElementById('image9big').hidden = true;
+
+document.getElementById('info1').hidden = true;
+document.getElementById('info2').hidden = true;
 //counter = 0;
 function big1(){
     
     //counter++; 
-    document.getElementById('image1big').hidden = false;}
-function bighide(){document.getElementById('image1big').classList.add("animation");document.getElementById('image1big').hidden = true;}
+    document.getElementById('image1big').hidden = false;document.getElementById('info1').hidden = false;}
+function bighide(){document.getElementById('image1big').classList.add("animation");document.getElementById('image1big').hidden = true;document.getElementById('info1').hidden = true;}
 
-function big2(){document.getElementById('image2big').hidden = false;}
-function bighide1(){document.getElementById('image2big').hidden = true;}
+function big2(){document.getElementById('image2big').hidden = false;document.getElementById('info2').hidden = false;}
+function bighide1(){document.getElementById('image2big').hidden = true;document.getElementById('info2').hidden = true;}
 
 function big3(){document.getElementById('image3big').hidden = false;}
 function bighide2(){document.getElementById('image3big').hidden = true;}
