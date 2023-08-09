@@ -12,8 +12,7 @@
 
 ul{
     
-    list-style: square;
-    background-color: #00bd49;
+    list-style: circle;
 }
 #intro{
     display: flex;
@@ -23,7 +22,7 @@ ul{
     
     margin:auto;
     width:40%;
-    height:160vmin;
+    height: auto;
     border: 2px solid rgb(255, 255, 255);
     padding: 3%;
     padding-top: 2.5%;
@@ -41,6 +40,7 @@ ul{
     width:100%;
     height: auto;
     white-space: normal;
+    margin-bottom:20vh;
 }
 .quote{
     font-size:5rem;
