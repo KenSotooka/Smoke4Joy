@@ -15,6 +15,7 @@ ul{
     list-style: circle;
 }
 #intro{
+    margin-top: 5%;
     display: flex;
 }
 
@@ -23,7 +24,6 @@ ul{
     margin:auto;
     width:40%;
     height: auto;
-    border: 2px solid rgb(255, 255, 255);
     padding: 3%;
     padding-top: 2.5%;
     padding-bottom: 5%;
@@ -79,7 +79,7 @@ ul{
     top: 0;
     width: 100%;
     background-color: #f1f1f1;
-    padding: 15px 10px;
+    padding: 10px 10px;
     margin:0%;
 }
 
@@ -87,11 +87,13 @@ ul{
     float: left;
     color:black;
     text-align: center;
-    padding: 12px;
+    padding: 14px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 5px;
 }
 
 .header a.logo {
@@ -99,7 +101,7 @@ ul{
 }
 
 .header a.active {
-    background-color: slategrey;
+    background-color:rgb(49, 49, 49);
     color: #f1f1f1;
 }
 
@@ -115,6 +117,7 @@ ul{
     padding: 3%;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: "Roberto", sans-serif;
     
     margin: auto;
     margin-top: 15%;
@@ -158,6 +161,8 @@ ul{
 .h3run{
     color: rgb(255, 255, 255);
     font-size: 3em;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
     padding-bottom: 10px;
     margin: auto;
     animation: change-color 2s;
