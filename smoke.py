@@ -3,6 +3,9 @@ from typing import NewType
 import requests
 from requests.api import post
 
+def weightcalc(asbestos, alcohol, tobacco, UV, radon, Formaldehyde, Meat, genes):
+    return 51 + " high risk of cancer"
+
 #just checking name probably the user
 app = Flask(__name__)
 
