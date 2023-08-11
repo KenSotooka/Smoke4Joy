@@ -13,7 +13,7 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 @app.route("/slide")
-def slideshow():
+def slideshow(): 
     return render_template("slideshow.html")
 
 if __name__ == "__main__":
