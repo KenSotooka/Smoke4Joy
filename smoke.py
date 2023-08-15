@@ -9,11 +9,15 @@ def weightcalc(asbestos, alcohol, tobacco, UV, radon, Formaldehyde, Meat, genes)
 #just checking name probably the user
 app = Flask(__name__)
 
+
+
+
 @app.route("/")
 def home():
     return render_template("home.html")
-@app.route("/quiz")
+@app.route("/quiz", methods = ["POST"])
 def quiz():
+
     return render_template("quiz.html")
 @app.route("/slide")
 def slideshow(): 
