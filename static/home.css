@@ -75,7 +75,7 @@ ul{
 }
 .header {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     top: 0;
     width: 100%;
     background-color: #f1f1f1;
@@ -164,8 +164,8 @@ ul{
     font-weight: bold;
     font-family: "Poppins", sans-serif;
     padding-bottom: 10px;
+    margin-top: 10%;
     margin: auto;
-    animation: change-color 2s;
 }
 h3{
     margin: auto;
@@ -176,7 +176,7 @@ body {
     margin-left: 5%;
     background-image: url("https://images.pexels.com/photos/4031381/pexels-photo-4031381.jpeg?auto=compress&cs=tinysrgb&w=1600");
     background-size: cover;
-    object-fit: cover;
+    backdrop-filter: blur(10px);
     color: #ffffff;
     font-family: "Source Sans Pro", Georgia, 'Times New Roman', Times, serif;
     margin: auto;
