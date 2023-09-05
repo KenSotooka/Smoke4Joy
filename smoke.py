@@ -15,6 +15,21 @@ def weightcalc(asbestos, alcohol, tobacco, UV, radon, Formaldehyde=1, Meat=1, ge
 #just checking name probably the user
 app = Flask(__name__)
 
+#Formaldehyde - 4
+#Asbestos - 5
+#Benzene - 4
+#Arsenic - 5
+#Tobacco smoke - 5
+#Radon - 5
+#UV radiation - 4
+#Diesel engine exhaust - 4
+#Alcohol - 3
+#Aflatoxins - 5
+#Ionizing radiation - 4
+#Benzidine - 5
+#Vinyl chloride - 4
+#Benzopyrene - 4
+#Cadmium - 5
 
 
 
