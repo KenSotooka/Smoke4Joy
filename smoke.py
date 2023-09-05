@@ -10,7 +10,7 @@ def weightcalc(asbestos, alcohol, tobacco, UV, radon, Formaldehyde=1, Meat=1, ge
     UV = int(UV)
     radon = int(radon)
 
-    return (asbestos + alcohol + tobacco + UV + 5*radon)
+    return (2*asbestos + 2*alcohol + 7*tobacco + UV + 5*radon)
 
 #just checking name probably the user
 app = Flask(__name__)
