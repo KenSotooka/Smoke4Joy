@@ -37,7 +37,7 @@ app = Flask(__name__)
 
 
 
-
+print(app.template_folder)
 @app.route("/")
 def home():
     return render_template("home.html")
