@@ -31,7 +31,7 @@ app = Flask(__name__)
 #Benzene - 4
 #Arsenic - 5
 #Diesel engine exhaust - 4
-#Aflatoxins - 5
+#Aflatoxins - 5 
 #Ionizing radiation - 4
 #Benzidine - 5
 
